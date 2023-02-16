@@ -1,0 +1,13 @@
+ul.c > li{
+    list-style-type: disc;
+    margin-bottom:2rem;
+    font-style: italic;
+}
+span.a {
+    display: inline-block; 
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: maroon;
+    text-decoration: underline;
+}

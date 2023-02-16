@@ -1,0 +1,519 @@
+<section id="slider">
+    <!--slider-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+                        <li data-target="#slider-carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-sm-6">
+                                <h1>BUTCAOCAP</h1>
+                                <h2>Bút bi Allan D’lious 6002BG</h2>
+                                <p> Nổi bậc nhất là hoa vân của vòng khoen giữa thân bút Allan D’lious được tạo hình tinh xảo và nghệ thuật </p>
+                                <button type="button" class="btn btn-default get" routerLink="/product-detail">Xem Ngay</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="../../assets/imgs/{{butcaocap[0].imgs}}" class="girl img-responsive"
+                                    alt="" />
+                                <img src="images/home/2-montblanc-starwalker-red-gold-resin-fineliner-105652-1-215x323.jpg" class="pricing" alt="" />
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1>BUTCAOCAP</h1>
+                                <h2>Bút dạ kim Montblanc Starwalker Red Gold Resin Fineliner Pen MB105652</h2>
+                                <p>Bút Montblanc StarWalker Red Gold Resin là dòng bút hiện đại với những cách tân trong thiết kế của hãng bút nổi tiếng Đức Montblanc</p>
+                                <button type="button" class="btn btn-default get" routerLink="/product-detail">Xem Ngay</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="../../assets/imgs/{{butcaocap[5].imgs}}"
+                                    class="girl img-responsive" alt="" />
+                                <img src="images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1>BUTCAOCAP</h1>
+                                <h2>Bút máy Montblanc Patron Of Art Homage To Ludwig II LE 4810 Fountain Pen MB117842</h2>
+                                <p>Chiêc bút máy này nằm trong bộ sưu tập Người bảo trợ nghệ thuật ( Patron of Art ) nhằm tôn kính vị vua Ludwig đệ nhị (Ludwig II)</p>
+                                <button type="button" class="btn btn-default get" routerLink="/product-detail">Xem Ngay</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="../../assets/imgs/{{butcaocap[9].imgs}}" class="girl img-responsive"
+                                    alt="" />
+                                <img src="images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--/slider-->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <app-sidebar></app-sidebar>
+            <div class="col-sm-9 padding-right">
+                <div class="features_items">
+                    <!--features_items-->
+                    <h2 class="title text-center">Sản phẩm nổi bật</h2>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="../../assets/imgs/{{butcaocap[0].imgs}}" alt="" />
+                                    <h2>{{butcaocap[0].price}}</h2>
+                                    <p>{{butcaocap[0].name}}</p>
+                                    <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                            class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                                <div class="product-overlay">
+                                    <div class="overlay-content">
+                                        <h2>{{butcaocap[0].price}}</h2>
+                                        <p>{{butcaocap[0].name}}</p>
+                                        <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a routerLink="/wishlist"><i class="fa fa-plus-square"></i>Thêm vào mong muốn</a></li>
+                                    <li><a routerLink="/product-detail"><i class="fa fa-plus-square"></i>Chi Tiết</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="../../assets/imgs/{{butcaocap[1].imgs}}" alt="" />
+                                    <h2>{{butcaocap[1].price}}</h2>
+                                    <p>{{butcaocap[1].name}}</p>
+                                    <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                            class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                                <div class="product-overlay">
+                                    <div class="overlay-content">
+                                        <h2>{{butcaocap[1].price}}</h2>
+                                        <p>{{butcaocap[1].name}}</p>
+                                        <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a routerLink="/wishlist"><i class="fa fa-plus-square"></i>Thêm vào mong muốn</a></li>
+                                    <li><a routerLink="/product-detail"><i class="fa fa-plus-square"></i>Chi Tiết</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="../../assets/imgs/{{butcaocap[2].imgs}}" alt="" />
+                                    <h2>{{butcaocap[2].price}}</h2>
+                                    <p>{{butcaocap[2].name}}</p>
+                                    <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                            class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                                <div class="product-overlay">
+                                    <div class="overlay-content">
+                                        <h2>{{butcaocap[2].price}}</h2>
+                                        <p>{{butcaocap[2].name}}</p>
+                                        <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a routerLink="/wishlist"><i class="fa fa-plus-square"></i>Thêm vào mong muốn</a></li>
+                                    <li><a routerLink="/product-detail"><i class="fa fa-plus-square"></i>Chi Tiết</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="../../assets/imgs/{{butcaocap[3].imgs}}" alt="" />
+                                    <h2>{{butcaocap[3].price}}</h2>
+                                    <p>{{butcaocap[3].name}}</p>
+                                    <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                            class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                                <div class="product-overlay">
+                                    <div class="overlay-content">
+                                        <h2>{{butcaocap[3].price}}</h2>
+                                        <p>{{butcaocap[3].name}}</p>
+                                        <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a routerLink="/wishlist"><i class="fa fa-plus-square"></i>Thêm vào mong muốn</a></li>
+                                    <li><a routerLink="/product-detail"><i class="fa fa-plus-square"></i>Chi Tiết</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="../../assets/imgs/{{butcaocap[4].imgs}}" alt="" />
+                                    <h2>{{butcaocap[4].price}}</h2>
+                                    <p>{{butcaocap[4].name}}</p>
+                                    <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                            class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                                <div class="product-overlay"> 
+                                    <div class="overlay-content">
+                                        <h2>{{butcaocap[4].price}}</h2>
+                                        <p>{{butcaocap[4].name}}</p>
+                                        <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a routerLink="/wishlist"><i class="fa fa-plus-square"></i>Thêm vào mong muốn</a></li>
+                                    <li><a routerLink="/product-detail"><i class="fa fa-plus-square"></i>Chi Tiết</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="../../assets/imgs/{{butcaocap[5].imgs}}" alt="" />
+                                    <h2>{{butcaocap[5].price}}</h2>
+                                    <p>{{butcaocap[5].name}}</p>
+                                    <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                            class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                                <div class="product-overlay">
+                                    <div class="overlay-content">
+                                        <h2>{{butcaocap[5].price}}</h2>
+                                        <p>{{butcaocap[5].name}}</p>
+                                        <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a routerLink="/wishlist"><i class="fa fa-plus-square"></i>Thêm vào mong muốn</a></li>
+                                    <li><a routerLink="/product-detail"><i class="fa fa-plus-square"></i>Chi Tiết</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--features_items-->
+
+                <div class="category-tab">
+                    <!--category-tab-->
+                    <div class="col-sm-12">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#but-Bi" data-toggle="tab">Bút bi</a></li>
+                            <li><a href="#but-Da" data-toggle="tab">Bút dạ</a></li>
+                            <li><a href="#but-Dakim" data-toggle="tab">Bút dạ kim</a></li>
+                            <li><a href="#but-May" data-toggle="tab">Bút máy</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade active in" id="but-Bi">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[9].imgs}}" alt="" />
+                                            <h2>{{butcaocap[9].price}}</h2>
+                                            <p>{{butcaocap[9].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[5].imgs}}" alt="" />
+                                            <h2>{{butcaocap[5].price}}</h2>
+                                            <p>{{butcaocap[5].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="but-Da">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[1].imgs}}" alt="" />
+                                            <h2>{{butcaocap[1].price}}</h2>
+                                            <p>{{butcaocap[1].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[2].imgs}}" alt="" />
+                                            <h2>{{butcaocap[9].price}}</h2>
+                                            <p>{{butcaocap[9].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[6].imgs}}" alt="" />
+                                            <h2>{{butcaocap[6].price}}</h2>
+                                            <p>{{butcaocap[6].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="but-Dakim">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[2].imgs}}" alt="" />
+                                            <h2>{{butcaocap[2].price}}</h2>
+                                            <p>{{butcaocap[2].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[8].imgs}}" alt="" />
+                                            <h2>{{butcaocap[8].price}}</h2>
+                                            <p>{{butcaocap[8].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[4].imgs}}" alt="" />
+                                            <h2>{{butcaocap[4].price}}</h2>
+                                            <p>{{butcaocap[4].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="but-May">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[3].imgs}}" alt="" />
+                                            <h2>{{butcaocap[3].price}}</h2>
+                                            <p>{{butcaocap[3].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../assets/imgs/{{butcaocap[7].imgs}}" alt="" />
+                                            <h2>{{butcaocap[7].price}}</h2>
+                                            <p>{{butcaocap[7].name}}</p>
+                                            <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/category-tab-->
+
+                <div class="recommended_items">
+                    <!--recommended_items-->
+                    <h2 class="title text-center">Sản Phẩm Được Đề Xuất</h2>
+
+                    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="../../assets/imgs/{{butcaocap[0].imgs}}" alt="" />
+                                                <h2>{{butcaocap[0].price}}</h2>
+                                                <p>{{butcaocap[0].name}}</p>
+                                                <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="../../assets/imgs/{{butcaocap[1].imgs}}" alt="" />
+                                                <h2>{{butcaocap[1].price}}</h2>
+                                                <p>{{butcaocap[1].name}}</p>
+                                                <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="../../assets/imgs/{{butcaocap[2].imgs}}" alt="" />
+                                                <h2>{{butcaocap[2].price}}</h2>
+                                                <p>{{butcaocap[2].name}}</p>
+                                                <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="../../assets/imgs/{{butcaocap[3].imgs}}" alt="" />
+                                                <h2>{{butcaocap[3].price}}</h2>
+                                                <p>{{butcaocap[3].name}}</p>
+                                                <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="../../assets/imgs/{{butcaocap[4].imgs}}" alt="" />
+                                                <h2>{{butcaocap[4].price}}</h2>
+                                                <p>{{butcaocap[4].name}}</p>
+                                                <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <img src="../../assets/imgs/{{butcaocap[5].imgs}}" alt="" />
+                                                <h2>{{butcaocap[5].price}}</h2>
+                                                <p>{{butcaocap[5].name}}</p>
+                                                <a routerLink="/cart" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--/recommended_items-->
+
+            </div>
+        </div>
+    </div>
+</section>
